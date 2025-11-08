@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home Page</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <header id="indH">
+            <div id="icon">
+                <img id="Mo" src="images/Muhannad_CV.jpg" alt="Mo's img">
+                <h1>Mo's Website</h1>
+            </div>
+            <fieldset><legend id="leg"><em>Where would you like to start?</em></legend>
+                <nav>
+                    <button id="long" type="button" onclick="AM()">About My Journey</button>
+                    <button type="button" onclick="inter()">Interests</button>
+                    <button type="button" onclick="cv()">CV</button>
+                    <button type="button" onclick="cont()">Contact Me</button>
+                    <button type="button" onclick="AR()">العربية</button>
+                </nav>
+            </fieldset>
+        </header>
+        <marquee><strong>Welcome to my beautiful website!</strong></marquee>
+
+        <fieldset id="sum">
+            <legend style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-shadow: 0.1rem 0.1rem 0.05rem rgb(133, 210, 210);"><em>Summary about yours truly</em></legend>
+            <article style="background-color:rgba(247, 253, 253, 0.5); border-radius: 1.2rem; background-blend-mode: overlay;"><br>
+                <p style="text-indent: 2rem; width:auto; text-align: justify; margin-left: 1rem; margin-right: 0.5rem;">My name's Muhannad Saeed Awadh Alasmari, I'm a Saudi senior computer science student 
+                    in King Saud University. I specialize in programming and web development.
+                </p>
+                <p style="text-indent: 2rem; width:auto; text-align: justify; margin-left: 1rem;">
+                    I'm passionate about making the best of my time, work, and intelligence. The making of this website is no exception.
+                </p>
+                <p style="text-indent: 2rem; width:auto; text-align: justify; margin-left: 1rem;">
+                    Feel free to look around my website, ranging from what I enjoy doing in my daily
+                    life to CV, which shows my skills and what I've worked on.
+                </p><br>
+            </article>
+        </fieldset>
+        <fieldset id="sum">
+            <legend id="sum2" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-shadow: 0.1rem 0.1rem 0.05rem rgb(133, 210, 210);"><em>How Did I Get Here?</em></legend>
+            <article style="background-color:rgba(176, 224, 247, 0.7); border-radius: 1.2rem; background-blend-mode: overlay;"><br>
+                <p style="text-indent: 2rem; width:auto; margin-left: 1rem;">
+                    <strong>Good question!</strong>
+                </p>
+                <div style="display: flex; align-items: center;">
+                    <div style="text-align: justify; text-indent: 2rem; margin-right: 1rem; margin-left: 1rem; width: auto;">
+                        <p>
+                            Since elementary school, I had a knack for solving problems, big or small. Hence my preference in what I want to study, which after a few years culminated in my entry as a Mawhiba grant student, resulting in my opportunity to study in Ibn Khaldun Middle School and eventually Manarat Al Riyadh High School.
+                        </p>
+                    </div> <!-- This below (its order) is the reason why it works-->
+                    <img id="Maw" src="images/Mawhiba.jpg" alt="Mawhiba Logo">
+                </div><div style="background-color:black; height: 0.1rem;"></div>
+                <div style="display: flex; align-items: center;">
+                    <img id="ksu" src="images/KSU.png" alt="KSU logo">
+                    <p style="text-align: justify; text-indent: 2rem; margin-left: 1rem; margin-right: 2rem; width: auto;"> 
+                        Afterwards, with a GPA of 99.48, I went to KSU and chose computer science as my major.
+                        In my journey there, I built a number of projects (one of which is this site you're looking at)
+                        and gathered quite a number of skills and abilities. I'm near the completion of my college journey, and I'm
+                        excited to what the future may bring.
+                    </p>
+                </div>
+
+            </article>
+        </fieldset>
+        <div style="background-color: azure; border-radius: 1.2rem;">
+            <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-indent: 1rem;">Projects (ML Section coming soon!)</h1>
+                <div style="display: flex; align-content:center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                    <img id="SM" src="images/logoo(1).png" alt="Smart Muratel" style="padding-right: 1rem;" onclick="openid('interests.html', 'MWV')"> <div style="background-color: black; border-radius:1rem; margin-right: 1rem; width:5px; height: auto;"></div>
+                    <p style="text-indent: 2rem; width: auto;">Smart Muratel, known as "المرتل الذكي" in Arabic is a voice generation and text annotation system for Quranic translations.
+                        The user signs in/signs up to create an account, creates a project by naming it and selecting the language to translate it to.
+                    </p><br>
+                    <p>When getting into the home page, the user selects a surah, chooses the voice they want to generate with, the verse, and even 
+                        add tags to make pronounciations more accurate to that of the Arabic language.
+                    </p>
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center; margin-top: 1rem; ">
+                    <video width="640" height="698" controls loop>
+                        <source src="images/WhatsApp Video 2025-03-02 at 1.44.09 PM.mp4" type="video/mp4">
+                        The browser doesn't support the video
+                    </video> 
+                </div><br>
+                <div style="display: flex; justify-content: center; align-items: center; margin-top: 1rem; ">
+                    <video width="720" height="450" controls loop>
+                        <source src="images/WhatsApp Video 2025-08-20 at 9.mp4" type="video/mp4">
+                        The browser doesn't support the video
+                    </video> 
+                </div>
+                <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-indent: 1rem; font-size: smaller;">You can find the final report for the project in "Interests." Click on the project's icon to go to it.</p><br>
+                <!--<div style="display: flex; align-content:center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                    <img id="SM" src="images/logoo(1).png" alt="Smart Muratel" style="padding-right: 1rem;"> <div style="background-color: black; width:5px; height: auto;"></div>
+                    <p style="text-indent: 2rem; width: auto;">Smart Muratel, known as "المرتل الذكي" in Arabic is a voice generation and text annotation system for Quranic translations</p>
+                </div>-->
+        </div>
+        <div id="cont"><br>
+            <footer style="font-size: 1.5rem;">Contact Me</footer><br>
+            <div style="align-items: center;">
+                <img id="YT" src="images/YT.png" alt="YT" style="width: 50px; transition: transform 0.3s ease-in-out;">
+                <img id="INS" src="images/INS.png" alt="INS" style="width: 50px; transition: transform 0.3s ease-in-out;">
+                <img id="WHT" src="images/WHT.png" alt="WHT" style="width: 50px; transition: transform 0.3s ease-in-out;">
+                <img id="LI" src="images/LI.png" alt="LI" style="width: 50px; transition: transform 0.3s ease-in-out;">
+                <img id="GIT" src="images/GIT.png" alt="GIT" style="width: 50px; transition: transform 0.3s ease-in-out;">
+            </div>
+            
+            <br><footer>Phone Number: +966 53 882 1677</footer><br>
+            <button type="button" onclick="btt()">Back to top</button><br><br>
+        </div>
+        <script src="JS/script.js"></script>
+    </body>
+</html>
