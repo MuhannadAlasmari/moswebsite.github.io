@@ -1,0 +1,142 @@
+body{
+    background-color:lightcyan;
+    #indH{
+        #icon{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            margin-bottom: 1rem;
+            
+            #Mo{
+                width: 7rem;
+                height: auto;
+                margin-top: 1rem;
+                margin-right: 1rem;
+                border-radius: 20rem;
+                box-shadow: 0.5rem 0.3rem 0.05rem rgb(56, 46, 34);
+            }
+            h1{
+                text-shadow: 0.5rem 0.3rem 0.05rem rgb(56, 46, 34);
+            }
+        }
+        fieldset{
+            border-color: black;
+            #leg{
+                text-shadow: 0.1rem 0.1rem 0.05rem rgb(39, 49, 20); 
+            }
+        }
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:azure;
+        text-align: center;
+        border-radius: 0.2rem;
+        background: linear-gradient(to right, rgb(0, 100, 0), rgb(85, 107, 47));
+        padding-bottom: 0.2rem;
+        
+    }
+    marquee{
+        background-color: black;
+        height: 2rem;
+        color:rgb(255, 255, 255);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    article{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    button{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:azure;
+        border-radius: 0.2rem;
+        margin-left: 3rem;
+        border: none;
+        width: 5.6rem;
+        height: 1.9rem;
+        background-color:darkcyan;
+        box-shadow: 3px 2px 1px rgb(0, 0, 71);
+        transition: transform 0.3s ease-in-out;
+    }
+    button:hover{
+        background-color: rgb(26, 193, 193);
+        transform: scale(1.2);
+    }
+    button:active{
+        background-color:rgb(143, 236, 236);
+    }
+    #long{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:azure;
+        border-radius: 0.2rem;
+        margin-left: 3rem;
+        border: none;
+        width: 7.9rem;
+        height: 1.9rem;
+        background-color:darkcyan;
+        box-shadow: 3px 2px 1px rgb(0, 0, 71);
+        transition: transform 0.3s ease-in-out;
+    }
+    #long:hover{
+        background-color: rgb(26, 193, 193);
+        transform: scale(1.2);
+    }
+    #long:active{
+        background-color:rgb(143, 236, 236);
+    }
+    #sum{
+        background-color: rgba(224,255,255,0.5);
+        background-blend-mode: overlay;
+        /*background-image: url(../images/AdobeStock_298681650.jpeg);*/
+        background-size: cover;
+        width: auto;
+        border-color:darkcyan;
+        margin-top: 1rem;
+    }
+    #Maw{
+        width: 200px; 
+        margin-left: 20px; 
+        margin-right: 10px;
+        border-radius: 2rem;
+        transition: transform 0.3s ease-in-out;
+    }
+    #Maw:hover{
+        transform: scale(1.2);
+    }
+    #ksu{
+        width: 200px; 
+        margin-right: 20px;
+        margin-left: 10px;
+        padding-right: 1rem;
+        transition: transform 0.3s ease-in-out;
+    }
+    #ksu:hover{
+        transform: scale(1.2);
+    }
+    #SM{
+        width: 200px;
+        transition: transform 0.3s ease-in-out;
+    } #SM:hover { transform: scale(1.2)}
+    #cont{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: rgba(0,0,0,0.7); 
+        background-blend-mode:darken;
+        color: white; 
+        margin-top: 3rem;
+        text-indent: 4rem;
+    }
+    #YT, #INS, #WHT, #LI, #GIT{
+        margin-right: 2rem;
+    }
+    #YT:hover{
+        transform: scale(1.2);
+    }
+    #INS:hover{
+        transform: scale(1.2);
+    }
+    #WHT:hover{
+        transform: scale(1.2);
+    }
+    #LI:hover{
+        transform: scale(1.2);
+    }
+    #GIT:hover{
+        transform: scale(1.2);
+    }
+}

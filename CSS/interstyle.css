@@ -1,0 +1,194 @@
+body{
+    background-color:lightgoldenrodyellow;
+    #intH{
+        #icon{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            margin-bottom: 1rem;
+            
+            #Mo{
+                width: 7rem;
+                height: auto;
+                margin-top: 1rem;
+                margin-right: 1rem;
+                border-radius: 20rem;
+                box-shadow: 0.5rem 0.3rem 0.05rem rgb(56, 46, 34);
+            }
+            h1{
+                text-shadow: 0.5rem 0.3rem 0.05rem rgb(56, 46, 34);
+            }
+        }
+        fieldset{
+            border-color: black;
+            #leg{
+                text-shadow: 0.1rem 0.1rem 0.05rem rgb(46, 40, 7);
+            }
+        }
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:azure;
+        text-align: center;
+        border-radius: 0.2rem;
+        background: linear-gradient(to right, rgb(220, 186, 15), rgb(121, 108, 38));
+        padding-bottom: 0.2rem;
+        
+    }
+    p{
+        text-indent: 2rem; 
+        width:25rem; 
+        text-align: justify; 
+        margin-left: 1rem;
+    }
+    marquee{
+        background-color: black;
+        height: 2rem;
+        color:rgb(255, 255, 255);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    #interB{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:azure;
+        border-radius: 0.2rem;
+        margin-left: 3rem;
+        border: none;
+        width: 5.6rem;
+        height: 1.9rem;
+        background-color:burlywood;
+        box-shadow: 3px 2px 1px rgb(57, 39, 16); 
+        transition: transform 0.3s ease-in-out;
+    }
+    #interB:hover{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:azure;
+        border-radius: 0.2rem;
+        margin-left: 3rem;
+        border: none;
+        width: 5.6rem;
+        height: 1.9rem;
+        background-color:rgb(125, 87, 37);
+        box-shadow: 3px 2px 1px rgb(57, 39, 16);  
+        transform: scale(1.2);
+    }
+    #interB:active{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:azure;
+        border-radius: 0.2rem;
+        margin-left: 3rem;
+        border: none;
+        width: 5.6rem;
+        height: 1.9rem;
+        background-color:rgb(45, 29, 8);
+        box-shadow: 3px 2px 1px rgb(57, 39, 16);  
+    }
+    #interBW{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:azure;
+        border-radius: 0.2rem;
+        margin-left: 3rem;
+        border: none;
+        width: 7rem;
+        height: 1.9rem;
+        background-color:burlywood;
+        box-shadow: 3px 2px 1px rgb(57, 39, 16); 
+        transition: transform 0.3s ease-in-out;
+    }
+    #interBW:hover{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:azure;
+        border-radius: 0.2rem;
+        margin-left: 3rem;
+        border: none;
+        width: 7rem;
+        height: 1.9rem;
+        background-color:rgb(125, 87, 37);
+        box-shadow: 3px 2px 1px rgb(57, 39, 16);  
+        transform: scale(1.2);
+    }
+    #interBW:active{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:azure;
+        border-radius: 0.2rem;
+        margin-left: 3rem;
+        border: none;
+        width: 7rem;
+        height: 1.9rem;
+        background-color:rgb(45, 29, 8);
+        box-shadow: 3px 2px 1px rgb(57, 39, 16);  
+    }
+
+    article{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #sum{
+        /*background-image: url(../images/AdobeStock_381805847.jpeg);*/
+        background-size: cover;
+        background: linear-gradient(to right, rgba(125, 75, 0, 0.5), rgba(125, 75, 0, 0));
+        width: 50%;
+        border-color:darkgoldenrod;
+        margin-top: 1rem;
+        transition: background-size 0.3s ease;
+    } #sum:hover{background-size: 220%;}
+    #sumb{
+        /*background-image: url(../images/LBP.png);*/
+        background-size: cover;
+        background: linear-gradient(to right, rgba(125, 75, 0, 0.5), rgba(125, 75, 0, 0));
+        width: 50%;
+        p{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: justify; text-indent: 2rem; margin-left: 1rem; margin-right: 2rem; width: auto;}
+        border-color:darkgoldenrod;
+        margin-top: 1rem;
+        transition: background-size 0.3s ease;
+    } #sumb:hover{background-size: 150%;}
+    #MWV{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-color:darkgoldenrod;
+        /*background-image: url(../images/AdobeStock_250706885.jpeg);*/
+        background-size: cover;
+        background: linear-gradient(to right, rgba(125, 75, 0, 0.5), rgba(125, 75, 0, 0));
+        background-blend-mode: overlay;
+        width: auto;
+    }
+    ul{ 
+        #hob{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:darkgoldenrod;
+            transition: transform 0.3s ease-in-out;
+        } #hob:hover{ transform: scale(1.1);}
+        #hob::first-letter{
+            font-size: 2rem;
+        } 
+        #hob::marker {
+            color:brown;
+            font-size: 1.5em;
+        }
+        #hobD{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-bottom: 0.5rem;
+        }
+    }
+    #cont{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: rgba(0,0,0,0.7); 
+        background-blend-mode:darken;
+        color: white; 
+        margin-top: 3rem;
+        text-indent: 4rem;
+    }
+    #YT, #INS, #WHT, #LI, #GIT{
+        margin-right: 2rem;
+    }
+    #YT:hover{
+        transform: scale(1.2);
+    }
+    #INS:hover{
+        transform: scale(1.2);
+    }
+    #WHT:hover{
+        transform: scale(1.2);
+    }
+    #LI:hover{
+        transform: scale(1.2);
+    }
+    #GIT:hover{
+        transform: scale(1.2);
+    }
+}
